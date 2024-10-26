@@ -11,6 +11,7 @@ import constant
 
 # Set your OpenAI API key
 openai.api_key = constant.open_ai_key
+openai.api_key = st.secrets["open_ai_key"]
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
