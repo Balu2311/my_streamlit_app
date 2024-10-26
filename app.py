@@ -5,6 +5,7 @@ import joblib
 from sklearn.metrics.pairwise import cosine_similarity
 import os
 import logging
+import secrets
 
 # Assuming constant.py is in the same directory and contains your OpenAI key
 import constant
