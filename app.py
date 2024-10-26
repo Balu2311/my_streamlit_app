@@ -44,10 +44,10 @@ def retrieve_relevant_document(query, embeddings, texts, filenames):
     return texts[index], filenames[index], similarity
 
 # Streamlit app
-st.title("Document Retrieval System")
+st.title("Conversational AI Chat")
 
 # User input
-user_query = st.text_input("Enter your query:")
+user_query = st.text_input("Please describe your issue:")
 
 if st.button("Submit"):
     if not user_query or not isinstance(user_query, str) or len(user_query.strip()) == 0:
