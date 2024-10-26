@@ -1,4 +1,7 @@
-pip install openai==0.28.0
-pip install python-docx
-pip install flask
-pip install sklearn
+openai==0.28
+python-docx
+flask
+scikit-learn
+Streamlit
+PyPDF2
+flask-cors
